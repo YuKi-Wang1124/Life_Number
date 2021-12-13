@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC247109276110AD00B0105C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC247108276110AD00B0105C /* ResultViewController.swift */; };
+		CC24710B27631A4E00B0105C /* LifeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24710A27631A4D00B0105C /* LifeNumber.swift */; };
+		CC24710E2763579D00B0105C /* NineSquareDivisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC24710D2763579D00B0105C /* NineSquareDivisionViewController.swift */; };
+		CC4CF36927673DDB0061A570 /* BirthdayNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CF36827673DDB0061A570 /* BirthdayNumberViewController.swift */; };
+		CC4CF36B276748560061A570 /* InbornNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CF36A276748560061A570 /* InbornNumberViewController.swift */; };
+		CC4CF36D27675A060061A570 /* ZodiacSignNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4CF36C27675A060061A570 /* ZodiacSignNumberViewController.swift */; };
 		CCE677B0275FBFFC0060F8CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE677AF275FBFFC0060F8CA /* AppDelegate.swift */; };
 		CCE677B2275FBFFC0060F8CA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE677B1275FBFFC0060F8CA /* SceneDelegate.swift */; };
 		CCE677B4275FBFFC0060F8CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE677B3275FBFFC0060F8CA /* ViewController.swift */; };
@@ -14,9 +20,16 @@
 		CCE677BA275FBFFC0060F8CA /* ____.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CCE677B8275FBFFC0060F8CA /* ____.xcdatamodeld */; };
 		CCE677BC275FBFFE0060F8CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCE677BB275FBFFE0060F8CA /* Assets.xcassets */; };
 		CCE677BF275FBFFE0060F8CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCE677BD275FBFFE0060F8CA /* LaunchScreen.storyboard */; };
+		CCE677C7275FC15B0060F8CA /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE677C6275FC15B0060F8CA /* BirthdayViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CC247108276110AD00B0105C /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		CC24710A27631A4D00B0105C /* LifeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeNumber.swift; sourceTree = "<group>"; };
+		CC24710D2763579D00B0105C /* NineSquareDivisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NineSquareDivisionViewController.swift; sourceTree = "<group>"; };
+		CC4CF36827673DDB0061A570 /* BirthdayNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayNumberViewController.swift; sourceTree = "<group>"; };
+		CC4CF36A276748560061A570 /* InbornNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InbornNumberViewController.swift; sourceTree = "<group>"; };
+		CC4CF36C27675A060061A570 /* ZodiacSignNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZodiacSignNumberViewController.swift; sourceTree = "<group>"; };
 		CCE677AC275FBFFC0060F8CA /* 生命靈數.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "生命靈數.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE677AF275FBFFC0060F8CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCE677B1275FBFFC0060F8CA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +39,7 @@
 		CCE677BB275FBFFE0060F8CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CCE677BE275FBFFE0060F8CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCE677C0275FBFFE0060F8CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCE677C6275FC15B0060F8CA /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,9 +53,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC24710C27631A8600B0105C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CC24710A27631A4D00B0105C /* LifeNumber.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		CCE677A3275FBFFC0060F8CA = {
 			isa = PBXGroup;
 			children = (
+				CCE677AF275FBFFC0060F8CA /* AppDelegate.swift */,
+				CCE677B1275FBFFC0060F8CA /* SceneDelegate.swift */,
+				CCE677B5275FBFFC0060F8CA /* Main.storyboard */,
+				CCE677C9275FC1FC0060F8CA /* View Controllers */,
+				CC24710C27631A8600B0105C /* Views */,
 				CCE677AE275FBFFC0060F8CA /* 生命靈數 */,
 				CCE677AD275FBFFC0060F8CA /* Products */,
 			);
@@ -58,16 +85,26 @@
 		CCE677AE275FBFFC0060F8CA /* 生命靈數 */ = {
 			isa = PBXGroup;
 			children = (
-				CCE677AF275FBFFC0060F8CA /* AppDelegate.swift */,
-				CCE677B1275FBFFC0060F8CA /* SceneDelegate.swift */,
-				CCE677B3275FBFFC0060F8CA /* ViewController.swift */,
-				CCE677B5275FBFFC0060F8CA /* Main.storyboard */,
 				CCE677BB275FBFFE0060F8CA /* Assets.xcassets */,
 				CCE677BD275FBFFE0060F8CA /* LaunchScreen.storyboard */,
 				CCE677C0275FBFFE0060F8CA /* Info.plist */,
 				CCE677B8275FBFFC0060F8CA /* ____.xcdatamodeld */,
 			);
 			path = "生命靈數";
+			sourceTree = "<group>";
+		};
+		CCE677C9275FC1FC0060F8CA /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCE677C6275FC15B0060F8CA /* BirthdayViewController.swift */,
+				CC247108276110AD00B0105C /* ResultViewController.swift */,
+				CC24710D2763579D00B0105C /* NineSquareDivisionViewController.swift */,
+				CC4CF36C27675A060061A570 /* ZodiacSignNumberViewController.swift */,
+				CC4CF36A276748560061A570 /* InbornNumberViewController.swift */,
+				CC4CF36827673DDB0061A570 /* BirthdayNumberViewController.swift */,
+				CCE677B3275FBFFC0060F8CA /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,10 +178,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC4CF36B276748560061A570 /* InbornNumberViewController.swift in Sources */,
+				CC24710E2763579D00B0105C /* NineSquareDivisionViewController.swift in Sources */,
+				CCE677C7275FC15B0060F8CA /* BirthdayViewController.swift in Sources */,
 				CCE677B4275FBFFC0060F8CA /* ViewController.swift in Sources */,
 				CCE677BA275FBFFC0060F8CA /* ____.xcdatamodeld in Sources */,
+				CC4CF36D27675A060061A570 /* ZodiacSignNumberViewController.swift in Sources */,
+				CC24710B27631A4E00B0105C /* LifeNumber.swift in Sources */,
 				CCE677B0275FBFFC0060F8CA /* AppDelegate.swift in Sources */,
 				CCE677B2275FBFFC0060F8CA /* SceneDelegate.swift in Sources */,
+				CC4CF36927673DDB0061A570 /* BirthdayNumberViewController.swift in Sources */,
+				CC247109276110AD00B0105C /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
